@@ -15,6 +15,20 @@
         --white: #fff;
         --dairy: #fcfcfc;
     }
+    .container { 
+
+    display: flex;
+    flex-shrink: 0;
+    max-width: 1440px; 
+    padding-left  
+    padding-right  
+    margin-left: 156px; 
+    margin-right: 156px;  
+}
+img {
+    display: block;
+    max-width: 100%;
+}
 a {
     text-decoration: none;
 }
@@ -62,7 +76,43 @@ header {
     color: var(--navy-blue);
     background: var(--white);
 }
+.container .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border:var(--cornflower); ;
+    border-bottom: 1px solid var(--cornflower);
+    width: 1440px;
+    height: 72px;
+}
+.box .heder-logo  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;  
+    gap: 156px;
+}
+.box .heder-list-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+    width: 261px;
+    height: 24px;
+  
+}
 
+.box .heder-list-address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 40px;
+    width: 344px;
+    height: 24px;
+}
 .heder-span {
     font-weight: 700;
     font-size: 18px;
