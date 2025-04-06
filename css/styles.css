@@ -1,0 +1,299 @@
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+
+        --iris: #4d5ae5;
+        --ocean: #404bbf;
+        --navy-blue: #2e2f42;
+        --green: #31d0aa;
+        --slate: #434455;
+        --light-slate: #8e8f99;
+        --cornflower: #e7e9fc;
+        --cloud: #f4f4fd;
+        --navy-blue-modal: rgba(46, 47, 66, 0.4);
+        --grey: rgba(46, 47, 66, 0.7);
+        --white: #fff;
+        --dairy: #fcfcfc;
+    }
+a {
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body {
+    font-family: var(--font-family);
+    background: var(--white);
+    color:var(--slate);
+    }
+h1 {
+    font-family: var(--font-family);
+    text-transform: capitalize;
+    font-size: 56px;
+    line-height: 1.07143;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--white);
+}
+
+h2 {
+    font-family: var(--font-family);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--navy-blue);
+}
+
+h3 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+header {
+    Family: var(--font-family);
+    Weight: Medium Size: 20px;
+    letter-spacing:2%;
+    color: var(--navy-blue);
+    background: var(--white);
+}
+
+.heder-span {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--navy-blue);
+}
+.header-logo {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+   
+}
+.heder-list-nav{
+
+}
+.heder-nav-itemactive {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    text-decoration: none;    
+}
+.heder-nav-itemactive :hover {
+    color: var(--ocean);
+}
+.heder-nav-itemactive :focus {
+    color: var(--ocean);
+}
+.heder-link {
+    color: var(--navy-blue);
+}
+.heder-nav-item {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    text-decoration: none;
+
+}
+.heder-nav-item :hover {
+    color: var(--ocean);
+}
+.heder-nav-item :focus {
+    color: var(--ocean);
+}
+.heder-address {
+    font-style: normal;
+}
+
+.heder-list-address {
+    
+}
+.address-link {
+    color: var(--slate);
+}
+.heder-address-itemitem {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--slate);
+    text-decoration: none;
+}
+.heder-address-itemitem :hover{
+    color: var(--ocean);
+}
+.heder-address-itemitem :focus {
+    color: var(--ocean);
+}
+.heder-address-item {
+    font-family: var(--font-family)
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--slate);
+    text-decoration: none;
+}
+.heder-address-item :hover {
+    color: var(--ocean);
+}
+.heder-address-item :focus {
+    color: var(--ocean);
+}
+.section-hero {
+    background-color:var(--navy-blue);
+}
+.section-hero-main {
+    line-height: 1.07;
+}
+.heder-span {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--navy-blue);
+}
+.button {
+    font-family: var(--font-family);
+    background-color: var(--iris);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color:var(--white);
+    cursor: pointer;
+}
+.button:hover {
+    cursor: pointer;
+    color: var(--white);
+    background-color:var(--ocean);
+ }
+ .button:focus {
+    cursor: pointer;
+    color: var(--white);
+    background-color:var(--ocean);
+ }
+.section {
+
+}
+.section-hero-h {
+
+}
+
+.section-list {
+    text-decoration: none;
+
+}
+.section-item {
+
+}
+.section-hero-hi {
+    font-family: var(--font-family);
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--navy-blue);
+        background: var(--white);
+}
+.section-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.section-team {
+    background-color: var(--cloud);
+}
+.section-team-h {
+    text-transform: capitalize;
+}
+.section-team-list {
+    background-color: #FFFFFF;
+}
+.section-team-hi {
+
+}
+.section-team-list-iteam {
+    background-color: #FFFFFF;
+}
+.section-team-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+.section-portfolio {
+    background-color: var(--cloud);
+}
+.section-portfolio-h {
+    font-family: var(--font-family);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--navy-blue);
+    text-transform: capitalize;
+}
+.section-portfolio-list {
+    background-color: var(--white);
+}
+.section-portfolio-hi {
+
+}
+.section-portfolio-item {
+
+}
+.section-portfolio-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em
+}
+.footer {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    background-color: var(--navy-blue);
+}
+.footer-logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+}
+.footer-span {
+        font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    color: var(--cloud);
+    text-transform: uppercase;
+}
+.footer-text {
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    color: var(--cloud);
+}
+
