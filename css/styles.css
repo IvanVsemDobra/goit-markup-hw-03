@@ -1,3 +1,8 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 :root {
     --font-family: "Roboto", sans-serif;
     --second-family: "Raleway", sans-serif;
@@ -15,16 +20,7 @@
         --white: #fff;
         --dairy: #fcfcfc;
     }
-    .container { 
 
-    display: flex;
-    flex-shrink: 0;
-    max-width: 1440px; 
-    padding-left  
-    padding-right  
-    margin-left: 156px; 
-    margin-right: 156px;  
-}
 img {
     display: block;
     max-width: 100%;
@@ -35,11 +31,21 @@ a {
 ul{
     list-style: none;
 }
-body {
-    font-family: var(--font-family);
-    background: var(--white);
-    color:var(--slate);
-    }
+.body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: ;
+    flex-basis: 1440px;
+    border: 1px; solid var(--cornflower);
+    margin: 0;
+    } 
+
+ main {
+     flex-grow: 1;
+ }
+
 h1 {
     font-family: var(--font-family);
     text-transform: capitalize;
@@ -69,50 +75,67 @@ h3 {
     color: var(--navy-blue);
 }
 
-header {
+.header {
     Family: var(--font-family);
     Weight: Medium Size: 20px;
     letter-spacing:2%;
     color: var(--navy-blue);
     background: var(--white);
+     
 }
-.container .header {
+.container-heder {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    border:var(--cornflower); ;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 0px;
+    flex-basis: 1158px;
+    height: 72px;
     border-bottom: 1px solid var(--cornflower);
-    width: 1440px;
+    background-color: var(--white);
+}
+.container-nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center
+    gap: 0px;
+    margin-left: 156px;
+    border: var(--cornflower) 10px;
+    flex-basis: 1158px;
     height: 72px;
 }
-.box .heder-logo  {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;  
-    gap: 156px;
-}
-.box .heder-list-nav {
+.box-logo {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
-    gap: 40px;
-    width: 261px;
-    height: 24px;
-  
-}
+    margin-right: 76px;
+    gap: 0px;
+    flex-basis: 156px;
+    height: 72px;
 
-.box .heder-list-address {
+}
+.box-div {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     gap: 40px;
-    width: 344px;
-    height: 24px;
+    flex-basis: 156px;
+    height: 72px;
 }
+.heder-list-nav {
+    display: flex;
+    align-items: center;
+    justify-content: ;
+    flex-direction: row;
+    gap: 40px;
+    flex-basis: 261px;
+    height: 24px;
+
+}
+
 .heder-span {
     font-weight: 700;
     font-size: 18px;
@@ -130,6 +153,38 @@ header {
     text-transform: uppercase;
     color: var(--iris);
    
+}
+.header-logo:hover {
+    color: var(--ocean);
+    font-family: var(--second-family);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 0px;
+    flex-basis: 115px;
+    height: 24px;
+}
+.header-logo:focus {
+    color: var(--ocean);
+    font-family: var(--second-family);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 0px;
+    flex-basis: 115px;
+    height: 24px;
+    border: 1px; solid var(--ocean);;
+}
+.heder-span {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--navy-blue);
 }
 .heder-list-nav{
 
@@ -169,11 +224,25 @@ header {
     color: var(--ocean);
 }
 .heder-address {
-    font-style: normal;
+    font-style: normal
 }
 
+.box-contacts .heder-address-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-right: 156px;
+    gap: 40px;
+    width: 344px;
+    height: 24px;
+}
 .heder-list-address {
-    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
 }
 .address-link {
     color: var(--slate);
@@ -189,9 +258,17 @@ header {
 }
 .heder-address-itemitem :hover{
     color: var(--ocean);
+    font-family: var(--font-family);
+    text-decoration: underline;
+   
 }
 .heder-address-itemitem :focus {
     color: var(--ocean);
+}
+.heder-address-itemactive:active {
+    color: var(--ocean);
+    font-family: var(--font-family);
+    text-decoration: underline;
 }
 .heder-address-item {
     font-family: var(--font-family)
@@ -204,25 +281,29 @@ header {
 }
 .heder-address-item :hover {
     color: var(--ocean);
+    font-family: var(--font-family);
+    text-decoration: underline;
 }
 .heder-address-item :focus {
     color: var(--ocean);
 }
+.container-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0px;
+    flex-basis:  1440px;
+    height: 600px;
+    background-color: var(--navy-blue);
+} 
 .section-hero {
     background-color:var(--navy-blue);
 }
 .section-hero-main {
     line-height: 1.07;
 }
-.heder-span {
-    font-family: var(--second-family);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--navy-blue);
-}
+
 .button {
     font-family: var(--font-family);
     background-color: var(--iris);
@@ -249,7 +330,16 @@ header {
 .section-hero-h {
 
 }
-
+.container-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0px;
+    flex-basis: 1440px;
+    height: 600px;
+    background: var(--white);
+}
 .section-list {
     text-decoration: none;
 
@@ -265,6 +355,15 @@ header {
         letter-spacing: 0.02em;
         color: var(--navy-blue);
         background: var(--white);
+}
+.section-hero-list .section-item {
+    display: flex;
+    align-items: center;
+    
+    margin-left: 156px;
+    flex-basis: 1128px;
+    height: 104px;
+    background-color: var(--white);
 }
 .section-text {
     line-height: 1.5;
