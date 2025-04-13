@@ -366,11 +366,12 @@ flex-basis: calc((100% - 312px) / 4);
    
 }
 .section-portfolio {
-    background-color: var(--cloud);
+    background-color: var(--white);
 }
 .container-portfolio {
     display: flex;
     flex-direction: column;
+    align-items: center;
    
 }
 .section-portfolio-h {
@@ -382,22 +383,35 @@ flex-basis: calc((100% - 312px) / 4);
     text-align: center;
     color: var(--navy-blue);
     text-transform: capitalize;
+    padding-top: 120px;
+    padding-bottom: 72px;
 }
 .section-portfolio-list {
     display: flex;
     flex-basis: calc((100% - 312px) /3);
     flex-wrap: wrap;
-    background-color: var(--white);
+    gap: 24px;
+    
+   
+}
+
+.section-portfolio-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
 }
 .section-portfolio-hi {
-
-}
-.section-portfolio-item {
+    padding-top: 32px;
+    padding-bottom: 8px;
 
 }
 .section-portfolio-text {
+    display: block;
     line-height: 1.5;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    padding-bottom: 32px;
+    margin-bottom: 120px;
 }
 .footer {
     font-family: var(--second-family);
@@ -408,6 +422,13 @@ flex-basis: calc((100% - 312px) / 4);
     text-transform: uppercase;
     background-color: var(--navy-blue);
 }
+.container-footer {
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    justify-content:center;
+    flex-direction: column;
+}
 .footer-logo {
     font-weight: 700;
     font-size: 18px;
@@ -415,6 +436,8 @@ flex-basis: calc((100% - 312px) / 4);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
+    padding-top: 101.5px;
+    margin-bottom: 16px;
 }
 .footer-span {
         font-weight: 700;
@@ -425,8 +448,16 @@ flex-basis: calc((100% - 312px) / 4);
     text-transform: uppercase;
 }
 .footer-text {
-    letter-spacing: 0.02em;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--cloud);
+    text-decoration: none;
+    width: 264px;
+    text-transform: none;
+    margin-bottom: 100px;
+
 }
 
