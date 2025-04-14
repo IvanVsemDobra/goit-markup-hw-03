@@ -153,6 +153,7 @@ h3 {
     padding-top: 24px;
     padding-bottom: 24px;
 }
+
 .heder-nav-item :hover {
     color: var(--ocean);
 }
@@ -161,6 +162,8 @@ h3 {
 }
 .heder-link {
     color: var(--navy-blue);
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .heder-nav-item :hover {
     color: var(--ocean);
@@ -224,14 +227,13 @@ h3 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 120px;
     gap: 0px;
-    flex-basis:  1440px;
+    flex-basis:  1158px;
     background-color: var(--navy-blue);
 } 
 .section-hero {
     background-color:var(--navy-blue);
-     padding-top: 188px;
+    padding-top: 188px;
     padding-bottom: 188px;
    
 }
@@ -256,7 +258,6 @@ h3 {
     border: none;
     cursor: pointer;
     border-radius: 4px;
-    margin-bottom: 188px;
 }
 .button:hover {
     cursor: pointer;
@@ -308,7 +309,7 @@ flex-basis: calc((100% - 312px) / 4);
 .section-item {
     display: flex;
     flex-direction: column;
-    
+    flex-basis: calc((100% - 72px) / 4))
    
 }
 .section-list li:not(:last-child) {
@@ -363,7 +364,7 @@ flex-basis: calc((100% - 312px) / 4);
     align-items: center;
     background-color: #FFFFFF;
     flex-basis: calc((100% - 72px) / 4))
-    border-radius: 0px 0px 4px 4px;
+    border-bottom-left-radius: 4px;
 }
 .img-section-team {
     padding-bottom: 32px;
@@ -382,6 +383,8 @@ flex-basis: calc((100% - 312px) / 4);
     text-align: center;
 }
 .section-portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px; 
     background-color: var(--white);
 }
 .container-portfolio {
@@ -399,8 +402,7 @@ flex-basis: calc((100% - 312px) / 4);
     text-align: center;
     color: var(--navy-blue);
     text-transform: capitalize;
-    padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .section-portfolio-list {
     display: flex;
@@ -427,7 +429,6 @@ flex-basis: calc((100% - 312px) / 4);
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding-bottom: 32px;
-    margin-bottom: 120px;
 }
 .footer {
     font-family: var(--second-family);
@@ -437,6 +438,8 @@ flex-basis: calc((100% - 312px) / 4);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     background-color: var(--navy-blue);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .container-footer {
     display: flex;
@@ -446,17 +449,17 @@ flex-basis: calc((100% - 312px) / 4);
     flex-direction: column;
 }
 .footer-logo {
+    display: inline-block;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
-    padding-top: 101.5px;
     margin-bottom: 16px;
 }
 .footer-span {
-        font-weight: 700;
+    font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
     letter-spacing: 0.03em;
@@ -473,7 +476,7 @@ flex-basis: calc((100% - 312px) / 4);
     text-decoration: none;
     width: 264px;
     text-transform: none;
-    margin-bottom: 100px;
+    
 
 }
 
