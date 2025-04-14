@@ -108,6 +108,7 @@ h3 {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
+    margin-right: 76px;
 }
 .header-logo:hover {
     color: var(--ocean);
@@ -148,7 +149,9 @@ h3 {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
-    text-decoration: none;   
+    text-decoration: none; 
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .heder-nav-item :hover {
     color: var(--ocean);
@@ -228,13 +231,14 @@ h3 {
 } 
 .section-hero {
     background-color:var(--navy-blue);
+     padding-top: 188px;
+    padding-bottom: 188px;
+   
 }
 .section-hero-main {
     display: flex;
     align-items: center;
     max-width: 496px;
-    padding-top: 188px;
-    padding-bottom: 188px;
     padding-bottom: 48px;
     line-height: 1.07;
 }
@@ -251,6 +255,7 @@ h3 {
     height: 56px;
     border: none;
     cursor: pointer;
+    border-radius: 4px;
     margin-bottom: 188px;
 }
 .button:hover {
@@ -303,7 +308,7 @@ flex-basis: calc((100% - 312px) / 4);
 .section-item {
     display: flex;
     flex-direction: column;
-    flex-basis: calc((100% - 72px) / 4))
+    
    
 }
 .section-list li:not(:last-child) {
@@ -345,8 +350,6 @@ flex-basis: calc((100% - 312px) / 4);
 .section-team-list {
     display: flex;
     flex-basis: calc((100% - 72px) / 4));
-    border-top-right-radius: 4px;
-    border-bottom-left-radius: 4px;
     gap: 24px;
     margin-bottom: 120px;
 }
@@ -359,6 +362,8 @@ flex-basis: calc((100% - 312px) / 4);
     flex-direction: column;
     align-items: center;
     background-color: #FFFFFF;
+    flex-basis: calc((100% - 72px) / 4))
+    border-radius: 0px 0px 4px 4px;
 }
 .img-section-team {
     padding-bottom: 32px;
