@@ -274,6 +274,7 @@ h3 {
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
+    background: var(--white);
 }
 .section-hero-h {
 
@@ -283,8 +284,8 @@ h3 {
     align-items: center;
     justify-content: center;
     margin-bottom: 120px;
-flex-basis: calc((100% - 312px) / 4);
-    background: var(--white);
+    flex-basis: calc((100% - 3 * 24px) / 4)
+  
 }
 .visually-hidden {
     position: absolute;
@@ -299,12 +300,12 @@ flex-basis: calc((100% - 312px) / 4);
     overflow: hidden;
 }
 .section-list {
-    text-decoration: none;
     display: flex;
     align-items: center;
     list-style: none;
     padding: 0;
-    margin: 0;   
+    margin: 0;
+    text-decoration: none;
 }
 .section-item {
     display: flex;
