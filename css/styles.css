@@ -310,8 +310,7 @@ h3 {
 .section-item {
     display: flex;
     flex-direction: column;
-    
-    
+    width: calc((100% - 3*24px)/4)
 }
 .section-list li:not(:last-child) {
     margin-right: 24px;
@@ -325,7 +324,6 @@ h3 {
     color: var(--navy-blue);
     padding-top: 32px;
     margin-bottom: 8px;
-    width:calc((100% - 3 * 24px) / 4)
 }
 .section-text {
     line-height: 1.5;
@@ -466,9 +464,10 @@ h3 {
 }
 
     
-
-.footer-logo {
+a {
     display: inline-block;
+}
+.footer-logo {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
