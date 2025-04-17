@@ -462,12 +462,8 @@ h3 {
     justify-content:center;
     flex-direction: column;
 }
-
-    
-footer a {
-    display: inline-block;
-}
 .footer-logo {
+    display: inline-block;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
